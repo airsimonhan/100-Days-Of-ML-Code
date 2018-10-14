@@ -26,7 +26,7 @@ X_train, X_test, Y_train, Y_test = train_test_split( X, Y, test_size = 1/4, rand
  regressor = LinearRegression()
  regressor = regressor.fit(X_train, Y_train)
  ```
- # Step 3: Predecting the Result
+ # Step 3: Predicting the Result
  ```python
  Y_pred = regressor.predict(X_test)
  ```
